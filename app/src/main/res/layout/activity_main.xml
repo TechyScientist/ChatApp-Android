@@ -44,7 +44,7 @@
 
         <EditText
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:minHeight="50dp"
             android:maxHeight="150dp"
             android:inputType="textMultiLine"
@@ -57,10 +57,11 @@
             android:layout_width="75dp"
             android:layout_height="50dp"
             android:id="@+id/btSendMessage"
-            android:contentDescription="@string/send_message"
             android:src="@drawable/ic_send_message"
+            android:contentDescription="@string/send_message"
             android:theme="@style/ShapeAppearanceOverlay.Material3.Button"
-            android:backgroundTint="?attr/colorPrimary"/>
+            android:backgroundTint="?attr/colorPrimary"
+            android:layout_gravity="bottom"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
