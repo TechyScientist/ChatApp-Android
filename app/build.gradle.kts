@@ -12,11 +12,11 @@ kotlin {
 }
 
 android {
-    namespace = "com.johnnyconsole.android.chatbot"
+    namespace = "com.johnnyconsole.android.chatapp"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.johnnyconsole.android.chatbot"
+        applicationId = "com.johnnyconsole.android.chatapp"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -45,7 +45,6 @@ android {
 }
 
 dependencies {
-    implementation(libs.tensorflow.lite)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

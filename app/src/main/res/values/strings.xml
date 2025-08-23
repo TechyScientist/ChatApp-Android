@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android Chat Bot</string>
+    <string name="app_name">Android Chat App</string>
     <string name="message">Message</string>
     <string name="send_message">Send Message</string>
 </resources>

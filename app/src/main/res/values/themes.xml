@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.ChatbotAndroid" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Base.Theme.ChatAppAndroid" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@android:color/holo_blue_dark</item>
     </style>
 
-    <style name="Theme.ChatbotAndroid" parent="Base.Theme.ChatbotAndroid" />
+    <style name="Theme.ChatAppAndroid" parent="Base.Theme.ChatAppAndroid" />
 </resources>

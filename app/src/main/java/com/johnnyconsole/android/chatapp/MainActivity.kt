@@ -1,4 +1,4 @@
-package com.johnnyconsole.android.chatbot
+package com.johnnyconsole.android.chatapp
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.johnnyconsole.android.chatbot.databinding.ActivityMainBinding
+import com.johnnyconsole.android.chatapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
