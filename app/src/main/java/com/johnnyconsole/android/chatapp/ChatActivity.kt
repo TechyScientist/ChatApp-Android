@@ -8,11 +8,11 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.johnnyconsole.android.chatapp.databinding.ActivityMainBinding
+import com.johnnyconsole.android.chatapp.databinding.ActivityChatBinding
 
-class MainActivity : AppCompatActivity() {
+class ChatActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityChatBinding
     private val messages = ArrayList<String>()
 
     private class MessageHolder(val view: View): RecyclerView.ViewHolder(view)
@@ -42,12 +42,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityChatBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
         with(binding) {
-            rvMessageHistory.layoutManager = LinearLayoutManager(this@MainActivity)
+            rvMessageHistory.layoutManager = LinearLayoutManager(this@ChatActivity)
             rvMessageHistory.adapter = MessageListAdapter(layoutInflater)
 
             btSendMessage.setOnClickListener { _ ->
