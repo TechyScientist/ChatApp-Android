@@ -53,6 +53,7 @@
         android:id="@+id/llSendMessage"
         android:orientation="horizontal"
         android:padding="10dp"
+        android:background="?android:colorBackground"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <com.google.android.material.textfield.MaterialAutoCompleteTextView
