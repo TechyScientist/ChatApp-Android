@@ -3,6 +3,7 @@
     <style name="Base.Theme.ChatAppAndroid" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
     </style>
 
     <style name="Theme.ChatAppAndroid" parent="Base.Theme.ChatAppAndroid" />
