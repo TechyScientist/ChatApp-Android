@@ -43,7 +43,7 @@
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent">
 
-        <EditText
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:minHeight="50dp"
@@ -55,15 +55,17 @@
             android:hint="@string/message"
             android:importantForAutofill="no"/>
 
-        <ImageButton
+        <com.google.android.material.button.MaterialButton
             android:layout_width="75dp"
             android:layout_height="50dp"
             android:id="@+id/btSendMessage"
-            android:src="@drawable/ic_send_message"
             android:contentDescription="@string/send_message"
             android:theme="@style/ShapeAppearanceOverlay.Material3.Button"
             android:backgroundTint="?attr/colorPrimary"
-            android:layout_gravity="bottom"/>
+            android:layout_gravity="bottom"
+            app:icon="@drawable/ic_send_message"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
