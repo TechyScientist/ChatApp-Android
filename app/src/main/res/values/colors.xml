@@ -2,6 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="grey">#FF808080</color>
 
     <color name="message_sent">@android:color/holo_blue_light</color>
     <color name="message_received">#FFC0C0C0</color>
