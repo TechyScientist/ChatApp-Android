@@ -15,6 +15,17 @@
         android:padding="10dp"
         app:layout_constraintTop_toTopOf="parent">
 
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/btCloseChat"
+            android:background="@android:color/transparent"
+            android:layout_marginEnd="20dp"
+            app:icon="@drawable/ic_menu_back"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconSize="50dp"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -25,15 +36,16 @@
     </Toolbar>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMessageHistory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rvMessageHistory"
         android:paddingStart="10dp"
-        android:paddingEnd="10dp"
         android:paddingTop="10dp"
-        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        android:paddingEnd="10dp"
         app:layout_constraintBottom_toTopOf="@id/llSendMessage"
-        app:layout_constraintVertical_bias="0"/>
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="31dp" />
 
     <LinearLayout
         android:layout_width="match_parent"

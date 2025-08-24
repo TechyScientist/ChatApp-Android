@@ -59,6 +59,8 @@ class ChatActivity : AppCompatActivity() {
             rvMessageHistory.layoutManager = LinearLayoutManager(this@ChatActivity)
             rvMessageHistory.adapter = MessageListAdapter(layoutInflater)
 
+            btCloseChat.setOnClickListener { _ -> finish() }
+
             btSendMessage.setOnClickListener { _ ->
                 if(!etMessage.text.isNullOrBlank()) {
                     messages.add(etMessage.text.toString())
