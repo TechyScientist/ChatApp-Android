@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">Android Chat App</string>
+
+    <!-- MainActivity Strings -->
+    <string name="usernameLabel">Username or UID Number:</string>
+    <string name="usernameHint">Enter Username or UID Number</string>
+    <string name="passwordLabel">Password:</string>
+    <string name="passwordHint">Enter Password</string>
+    <string name="signIn">Sign In</string>
+
+    <!-- ChatActivity Strings -->
     <string name="message">Message</string>
     <string name="send_message">Send Message</string>
+
 </resources>
